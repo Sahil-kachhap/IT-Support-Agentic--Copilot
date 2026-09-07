@@ -35,7 +35,7 @@ def chat(payload: ChatRequest):
             "rewritten_query":result.get("current_query", payload.question)
         }
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e)) from e
+        raise HTTPException(status_code=500, detail="Internal Server Error") from e
     
 @router.post("/ingest")
 async def ingest(file: UploadFile = File(...), x_admin_key:str = Header(default="")):
