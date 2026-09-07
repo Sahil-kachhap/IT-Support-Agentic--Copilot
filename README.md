@@ -1,5 +1,8 @@
 # 🛠️ Enterprise IT Support Agentic RAG Copilot
 
+<img width="1900" height="881" alt="image" src="https://github.com/user-attachments/assets/b47a14e0-5edf-46e8-8a65-8dd8f957cc59" />
+
+
 **An AI-powered IT support assistant that thinks before it answers.**
 
 Instead of blindly retrieving documents and generating a response, this system reasons through *where* the best answer is likely to live — the company knowledge base, the open web, or a direct reply — and only escalates to the next source when the evidence it already has isn't good enough.
